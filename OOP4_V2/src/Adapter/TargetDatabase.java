@@ -1,7 +1,7 @@
 package Adapter;
 
-public interface Database {
+public interface TargetDatabase {
     void connect();
-    void query(String query);
+    void insertData();
     void disconnect();
 }
